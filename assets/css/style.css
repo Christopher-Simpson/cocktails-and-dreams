@@ -48,6 +48,12 @@ body {
     width: 150px;
     margin: 10px;
     background-color: #fed0e2;
+    transition: all .2s ease-in-out;
+}
+
+.events-card:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 5px 1px #c63770;
 }
 
 .events-card img {
