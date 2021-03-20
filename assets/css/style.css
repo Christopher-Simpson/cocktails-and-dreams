@@ -33,12 +33,12 @@ body {
     
 }
 .my-links > .navbar-nav > .nav-item > .nav-link {
-    color: #f8f8f8;
+    color: #d3d3d3;
 }
 
 .my-links > .navbar-nav > .nav-item > .nav-link:hover {
-    color: #c5F64e;
-
+    color: #fff;
+    text-shadow: 0 0 10px rgb(231 22 105);
 }
 
 .navbar-toggler {
