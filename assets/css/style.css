@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body {
     font-family: "Nunito Sans", "serif";
@@ -16,6 +17,11 @@ h2 {
 p {
     font-size: 1.3rem;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+}
+
 /* grid view */
 .container {
     border: 2px solid blue;
@@ -70,7 +76,16 @@ p {
 } */
 
 /* Splash Styles */
-
+.splash-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #388bb9;
+    z-index: -10;
+    opacity: 0.15;
+}
 .splashbg {
     position: fixed;
     top: 0;
@@ -102,7 +117,7 @@ video[poster]{
     width: 100vw;
     margin: 0;
     padding: 0;
-    color: #f8f8f8;
+    color: #d3d3d3;
 }
 
 .splash {
@@ -110,6 +125,16 @@ video[poster]{
     align-items: center;
 }
 
+.welcome {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+.welcome > h1 {
+    font-family: "Great Vibes", cursive;
+    text-transform: none;
+}
 .my-button, .welcome, .intro {
     text-align: center;
 }
