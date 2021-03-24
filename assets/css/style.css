@@ -5,6 +5,19 @@ body {
     padding: 0;
     margin: 0;
 }
+/* grid view */
+.container {
+    border: 2px solid blue;
+}
+
+.row {
+    border: 1px solid red;
+}
+
+.col {
+    border: 1px solid green;
+}
+
 
 /* Nav Styles */
 .my-nav {
@@ -83,6 +96,10 @@ video[poster]{
 .splash {
     justify-items: center;
     align-items: center;
+}
+
+.my-button, .welcome, .intro {
+    text-align: center;
 }
 
 
