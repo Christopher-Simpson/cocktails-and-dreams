@@ -7,15 +7,15 @@ body {
     margin: 0;
 }
 h1 {
-    font-size: 3.6rem;
+    font-size: 4rem;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -151,6 +151,10 @@ video[poster]{
 
 .intro {
     font-weight: 400;
+}
+
+.intro p {
+    padding-top: 10px;
 }
 
 .button-wrap, .welcome, .intro {
@@ -365,5 +369,73 @@ video[poster]{
     #splashvid { 
         width:auto;
         height: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .welcome > h1 {
+        font-size: 4rem;
+    }
+    .welcome > h2 {
+        font-size: 2rem;
+        padding: 20px;
+    }
+    .intro > p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .welcome > h1 {
+        font-size: 3.6rem;
+    }
+    .welcome > h2 {
+        font-size: 1.8rem;
+        padding: 20px;
+    }
+    .intro > p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .welcome > h1 {
+        font-size: 3.2rem;
+    }
+    .welcome > h2 {
+        font-size: 1.6rem;
+    }
+    .intro > p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome > h1 {
+        font-size: 2.2rem;
+    }
+    .welcome > h2 {
+        font-size: 1.4rem;
+        padding: 1rem 0;
+    }
+    .intro > p {
+        font-size: 1rem;
+        margin: 1rem 0 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .welcome > h1 {
+        font-size: 2rem;
+    }
+    .welcome > h2 {
+        font-size: 1.2rem;
+        padding: .8rem 0;
+        margin: 0;
+    }
+    .intro > p {
+        font-size: .9rem;
+        text-align: justify;
+        margin: .8rem 0 0;
     }
 }
