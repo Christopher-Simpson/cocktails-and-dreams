@@ -396,6 +396,10 @@ video[poster]{
     .intro > p {
         font-size: 1.3rem;
     }
+    .my-brand {
+    width: 6.5rem;
+    /* margin: 10px 0 0 20px; */
+}
 }
 
 @media (max-width: 768px) {
@@ -408,6 +412,10 @@ video[poster]{
     .intro > p {
         font-size: 1.2rem;
     }
+    .my-brand {
+    width: 6rem;
+    margin: 1em 0 0 1em;
+}
 }
 
 @media (max-width: 480px) {
@@ -421,6 +429,10 @@ video[poster]{
     .intro > p {
         font-size: 1rem;
         margin: 1rem 0 0;
+    }
+    .my-brand {
+    width: 5rem;
+    margin: 1em 0 0 1em;
     }
 }
 
@@ -437,5 +449,9 @@ video[poster]{
         font-size: .9rem;
         text-align: justify;
         margin: .8rem 0 0;
+    }
+    .my-brand {
+    width: 4rem;
+    margin: 1em 0 0 1em;
     }
 }
