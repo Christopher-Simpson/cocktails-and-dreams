@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .col {
     border: 1px solid green;
+    background: white;
 }
 
 
@@ -471,6 +472,9 @@ video[poster]{
     width: 5rem;
     margin: 1em 0 0 1em;
     }
+    .events-card {
+        width: 138px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -488,7 +492,19 @@ video[poster]{
         margin: .8rem 0 0;
     }
     .my-brand {
-    width: 4rem;
-    margin: 1em 0 0 1em;
+        width: 4rem;
+        margin: 1em 0 0 1em;
+    }
+    .events-card {
+        width: 131px;
+    }
+    .event-text > p {
+        font-size: 1.3rem;
     }
 }
+
+/* @media (max-width: 320px) {
+    .events-card {
+        width: 100vw;
+    }
+} */
