@@ -37,6 +37,9 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 /* Nav Styles */
+.container-fluid {
+    padding: 0;
+}
 .my-nav {
     width: 100%;
     position: fixed;
@@ -56,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 40px 90px 0 0;
+    /* background: linear-gradient(1deg, black, transparent); */
 }
 
 .my-links > .navbar-nav > .nav-item {
@@ -73,9 +77,9 @@ h1, h2, h3, h4, h5, h6 {
  */
 }
 
-/* .navbar-toggler {
-    background-color: #c5F64e;
-} */
+.navbar-toggler {
+    border-style: none;
+}
 
 /* Splash Styles */
 .splash-overlay {
@@ -105,7 +109,6 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     min-width: 100%;
     min-height: 100%;
-    display: none;
 }
 
 video[poster]{
@@ -394,6 +397,10 @@ video[poster]{
     .intro > p {
         font-size: 1.5rem;
     }
+    
+}
+
+@media (min-width: 992px) {
     .splash-overlay {
     height: 100vh;
     width: 100vw;
@@ -403,9 +410,11 @@ video[poster]{
     background: #388bb9;
     z-index: -10;
     opacity: 0.15;
+    }
+    #carouselExampleSlidesOnly {
+        display: none;
+    }
 }
-}
-
 @media (max-width: 992px) {
     .welcome > h1 {
         font-size: 3.6rem;
@@ -420,6 +429,12 @@ video[poster]{
     .my-brand {
     width: 6.5rem;
     margin: 1em 0 0 1em;
+    }
+    #splashvid {
+        display: none;
+    }
+    .my-links {
+        background: linear-gradient(1deg, black, transparent);
     }
 }
 
