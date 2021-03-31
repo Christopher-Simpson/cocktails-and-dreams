@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* grid view */
-/* .container {
+.container {
     border: 2px solid blue;
 }
 
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 .col {
     border: 1px solid green;
     background: white;
-} */
+}
 
 
 /* Nav Styles */
@@ -288,6 +288,14 @@ video[poster]{
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%238cf3ec' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
+.my-container {
+    max-width: 720px;
+}
+
+.my-col {
+    padding-left: 2rem;
+}
+
 .events-card {
     display: flex;
     flex-wrap: wrap;
@@ -371,6 +379,7 @@ video[poster]{
 .card1 > .card-container:after {
     background-image: linear-gradient(135deg, #0100ec, #fb36f4);
 } */
+
 /* Connected Styles */
 
 .connect-container {
@@ -492,6 +501,9 @@ video[poster]{
     .my-links {
         background: linear-gradient(1deg, black, transparent);
     }
+    .my-col {
+        padding-left: 2rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -507,6 +519,12 @@ video[poster]{
     .my-brand {
     width: 6rem;
     margin: 1em 0 0 1em;
+    }
+}
+
+@media (max-width: 540px) {
+    .my-col {
+        padding-left: 3rem;
     }
 }
 
@@ -532,8 +550,21 @@ video[poster]{
     .event-text > p {
         font-size: 1.3rem;
     }
+    .my-col {
+        padding-left: 1.5rem;
+    }
+}
+@media (max-width: 385px) {
+    .my-col {
+        padding-left: 1rem;
+    }
 }
 
+@media (max-width: 368px) {
+    .my-col {
+        padding-left: .4rem;
+    }
+}
 @media (max-width: 360px) {
     .welcome > h1 {
         font-size: 2rem;
@@ -552,10 +583,20 @@ video[poster]{
         width: 4rem;
         margin: 1em 0 0 1em;
     }
-}
-
-/* @media (max-width: 320px) {
-    .events-card {
-        width: 100vw;
+    .my-col {
+        padding-left: 0.3rem;
     }
-} */
+}
+@media (max-width: 345px) {
+    .events-card {
+        width: auto;
+        height: auto;
+    }
+}
+@media (max-width: 320px) {
+    .my-col {
+        min-width: 100%;
+        max-height: 100%;
+        padding: 0;
+    }
+}
