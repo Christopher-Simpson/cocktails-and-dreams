@@ -72,7 +72,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .my-links > .navbar-nav > .nav-item > .nav-link:hover {
-    color: #fff;
+    /* color: #fff; */
+    filter: brightness(120%);
     text-shadow: 0 0 10px rgb(231 22 105);
     /* text-shadow: 0 0 10px #6eafd3;
  */
@@ -305,26 +306,50 @@ video[poster]{
     font-size: 3rem;
 }
 .events-card {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-items: center;
-    align-items: center;
+    align-items: center; */
     padding: 0;
     margin: 0;
-    height: 200px;
+    height: auto;
     width: 150px;
     /* width: calc(99.9% * 1/2 - (1.2rem - 1.2rem * 1/2)); */
     margin: 10px;
     background-color: #fed0e2;
     transition: all .2s ease-in-out;
 }
+.event-text {
+    font-weight: 600;
+}
+.event-header {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.2rem;
+    padding-top: .5rem
+}
+
+.event-date {
+    padding: 1rem 0 1rem 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
 
 .events-card:hover {
     transform: scale(1.02);
-    box-shadow: 3px 3px 5px 1px #c63770;
+    /* box-shadow: 20px 20px 50px 15px #c63770; */
+    box-shadow: 0 0 40px 5px rgb(231 22 105);
+    /* background-color: #fff; */
+    filter: brightness(120%);
 }
 
+/* .event-text:nth-child(2) {
+    filter: brightness(110%);
+} */
+
+
 .events-card img {
+    height: 100px;
     width: 100%;
     padding: 0;
 }
@@ -495,6 +520,7 @@ video[poster]{
         font-size: 1.5rem;
     }
     
+    
 }
 
 @media (min-width: 992px) {
@@ -579,8 +605,14 @@ video[poster]{
     .events-card {
         width: 131px;
     }
-    .event-text > p {
+    /* .event-text > p {
         font-size: 1.3rem;
+    } */
+    .event-header {
+        font-size: .8rem;
+    }
+    .event-date {
+    font-size: .8rem;
     }
     .my-col {
         padding-left: 1.5rem;
@@ -619,16 +651,33 @@ video[poster]{
         padding-left: 0.3rem;
     }
 }
-@media (max-width: 345px) {
-    .events-card {
-        width: auto;
-        height: auto;
+
+/* @media (min-width: 360px) {
+    .events-card img {
+        height: 100px;
     }
-}
+} */
+/* 
+@media (max-width: 360px) {
+   .events-card img {
+        height: 100px;
+    }
+    
+} */
 @media (max-width: 320px) {
     .my-col {
         min-width: 100%;
         max-height: 100%;
         padding: 0;
     }
+
+    .events-card img {
+        height: auto;
+    }
+
+     .events-card {
+        width: auto;
+        height: auto;
+    }
+
 }
