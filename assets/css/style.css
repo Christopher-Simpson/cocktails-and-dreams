@@ -482,15 +482,21 @@ video[poster]{
     
 }
 
+.form-content {
+    display: flex;
+    justify-content: center;
+}
+
 .input-container {
     border: 2px solid blue;
-    border-right: 0;
+    width: 40%;
+    
     /* transform: skewY(-4deg); */
 }
 
 .my-email,
 .my-text{
-    width: 30%;
+    width: 90%;
     background: none;
     border-top: none;
     border-left: none;
@@ -516,9 +522,10 @@ video[poster]{
 }
 
 .button-container {
-    position: relative;
+    /* display: inline-block; */
+    /* position: relative; */
     border: 2px solid blue;
-    border-left: 0;
+    
 }
  
 
