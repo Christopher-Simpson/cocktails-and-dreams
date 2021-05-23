@@ -479,6 +479,7 @@ video[poster]{
 
 .news-container {
     transform: skew(0deg, -4deg) translateY(80px);
+    
 }
 
 .input-container {
@@ -486,10 +487,6 @@ video[poster]{
     border-right: 0;
     /* transform: skewY(-4deg); */
 }
-
-/* .input-inner {
-    transform: skewY(4deg);
-} */
 
 .my-email,
 .my-text{
@@ -507,16 +504,22 @@ video[poster]{
 }
 
 .my-submit {
-   /*  position: relative;
+    /* position: relative;
     bottom: 10px;
-    left: 20px;
+    left: 20px; */
     font-size: 3rem;
     border: none;
-    background: none; */
+    background: none;
+    /* border: 2px solid blue;
+    border-left: 0;
+    float: right; */
+}
+
+.button-container {
+    position: relative;
     border: 2px solid blue;
     border-left: 0;
 }
-
  
 
 
