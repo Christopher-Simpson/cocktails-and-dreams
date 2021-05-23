@@ -488,8 +488,7 @@ video[poster]{
 }
 
 .input-container {
-    border: 2px solid blue;
-    width: 40%;
+    width: 50%;
     
     /* transform: skewY(-4deg); */
 }
@@ -521,12 +520,7 @@ video[poster]{
     float: right; */
 }
 
-.button-container {
-    /* display: inline-block; */
-    /* position: relative; */
-    border: 2px solid blue;
-    
-}
+
  
 
 
@@ -648,6 +642,10 @@ video[poster]{
 @media (max-width: 540px) {
     .my-col {
         padding-left: 3rem;
+    }
+
+    .input-container {
+        width: 100%;
     }
 }
 
@@ -776,4 +774,5 @@ video[poster]{
     margin: 0 1rem 0 1rem;
     font-size: 2rem;
     }
+
 }
