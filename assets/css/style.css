@@ -580,6 +580,15 @@ video[poster]{
 .spacer {
     margin-left: 20px;
 }
+
+.gap-filler {
+    position: relative;
+    background: #000;
+    height: 50px;
+    width: 100vw;
+    transform: scaleY(20);
+    overflow: hidden;
+}
 /* ------------------------------------------------Footer Styles */
 
 #footer {
@@ -589,6 +598,7 @@ video[poster]{
   /*   height: 100vh; */
     position: relative;
     width: 100vw;
+    /* height: 80vh; */
     margin: 0;
     padding: 0;
     background: black;
