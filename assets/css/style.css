@@ -520,9 +520,21 @@ video[poster]{
     float: right; */
 }
 
-
+.my-modal {
+    z-index: 100;
+    transform: skew(0deg, -4deg);
+}
+ .my-modal-bg {
+     z-index: 200;
+ }
  
-
+ .modal-backdrop {
+    display: none;
+ }
+ 
+.modal.show .modal-dialog {
+    transform: skew(0deg, -4deg);
+}
 
 /* ------------------------------------------------------Menu Styles */
 
