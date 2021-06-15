@@ -1,3 +1,5 @@
+/* ----------------------------------------global styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
@@ -31,25 +33,12 @@ a:hover {
     color: inherit;
 }
 
-/* ---------------------------------------------------------grid view */
-/* .container {
-    border: 2px solid blue;
-}
-
-.row {
-    border: 1px solid red;
-}
-
-.col {
-    border: 1px solid green;
-    background: white;
-}
- */
-
 /* -------------------------------------------------------------Nav Styles */
+
 .container-fluid {
     padding: 0;
 }
+
 .my-nav {
     width: 100%;
     position: fixed;
@@ -69,23 +58,20 @@ a:hover {
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 40px 90px 0 0;
-    /* background: linear-gradient(1deg, black, transparent); */
 }
 
 .my-links > .navbar-nav > .nav-item {
     padding: 0 1rem 0 1rem;
     
 }
+
 .my-links > .navbar-nav > .nav-item > .nav-link {
     color: #d3d3d3;
 }
 
 .my-links > .navbar-nav > .nav-item > .nav-link:hover {
-    /* color: #fff; */
     filter: brightness(120%);
     text-shadow: 0 0 10px rgb(231 22 105), 0 0 4px #2196f3;
-    /* text-shadow: 0 0 10px #6eafd3;
- */
 }
 
 .navbar-toggler {
@@ -93,6 +79,7 @@ a:hover {
 }
 
 /* -----------------------------------------------------------Splash Styles */
+
 .splash-overlay {
     height: 100vh;
     width: 100vw;
@@ -103,6 +90,7 @@ a:hover {
     z-index: -10;
     opacity: 0.45;
 }
+
 .splashbg {
     position: fixed;
     top: 0;
@@ -136,6 +124,7 @@ video[poster]{
     object-fit: cover;
     min-height: 100%;
 }
+
 .splash-container {
     display: flex;
     justify-content: center;
@@ -146,11 +135,6 @@ video[poster]{
     padding: 0;
     color: #f8f8f8;
 }
-
-/* .splash {
-    justify-items: center;
-    align-items: center;
-} */
 
 .welcome {
     letter-spacing: 2px;
@@ -203,8 +187,6 @@ video[poster]{
     transition: 0.2s;
 }
 
-
-
 .my-button:hover {
     color: rgb(231 22 105);
     background: #6eafd3;
@@ -212,14 +194,10 @@ video[poster]{
     transition-delay: 1s;
 }
 
-
 .my-button span {
     position: absolute;
     display: block;
 }
-
-
-
 
 .my-button span:nth-child(1) {
     top: 0;
@@ -229,13 +207,10 @@ video[poster]{
     background: linear-gradient(90deg, transparent, #6eafd3);
 }
 
-
-
 .my-button:hover span:nth-child(1) {
     left: 100%;
     transition: 1s;
 }
-
 
 .my-button span:nth-child(3) {
     bottom: 0;
@@ -251,8 +226,6 @@ video[poster]{
     transition-delay: 0.5s;
 }
 
-
-
 .my-button span:nth-child(2) {
     top: -100%;
     right: 0;
@@ -266,8 +239,6 @@ video[poster]{
     transition: 1s;
     transition-delay: 0.25s;
 }
-
-
 
 .my-button span:nth-child(4) {
     bottom: -100%;
@@ -283,17 +254,11 @@ video[poster]{
     transition-delay: 0.75s;
 }
 
-
 /* --------------------------------------------------------Event Styles */
+
 .events-wrapper {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; */
     position: relative;
     width: 100vw;
-   /*  margin: 0; */
     padding: 110px 0;
     background-color: #f38bb5;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%238cf3ec' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
@@ -314,23 +279,21 @@ video[poster]{
 .events-heading h3 {
     font-size: 3rem;
 }
+
 .events-card {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
-    align-items: center; */
     padding: 0;
     margin: 0;
     height: auto;
     width: 150px;
-    /* width: calc(99.9% * 1/2 - (1.2rem - 1.2rem * 1/2)); */
     margin: 10px;
     background-color: #fed0e2;
     transition: all .2s ease-in-out;
 }
+
 .event-text {
     font-weight: 600;
 }
+
 .event-header {
     text-transform: uppercase;
     font-weight: 900;
@@ -346,16 +309,9 @@ video[poster]{
 
 .events-card:hover {
     transform: scale(1.02);
-    /* box-shadow: 20px 20px 50px 15px #c63770; */
     box-shadow: 0 0 40px 5px rgb(231 22 105), 0 0 10px 2px #2196f3;
-    /* background-color: #fff; */
     filter: brightness(120%);
 }
-
-/* .event-text:nth-child(2) {
-    filter: brightness(110%);
-} */
-
 
 .events-card img {
     height: 100px;
@@ -367,67 +323,10 @@ video[poster]{
     width: 100%;
     text-align: center;
 }
-/* test cards */
-/* .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
-    padding: 20px;
-    grid-gap: 40px;
-}
-
-.card {
-    background-color: #1c1b29;
-    border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0,0,0,0.18);
-}
-
-.card-container > img {
-    width: 100%;
-    display: block;
-    border-radius: 20px 20px 0 0;
-}
-
-.card-container {
-    position: relative;
-    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
-}
-.card-container:after {
-    content:"";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 20px 20px 0 0;
-    opacity: 0.7;
-}
-
-.details {
-    padding: 20px 10px;
-}
-
-.details > h3 {
-    color: #f8f8f8;
-    font-weight: 600;
-    font-size: 18px;
-    margin: 10px 0 15px 0;
-}
-.details > p {
-    color: #f8f8f8;
-    font-size: 15px;
-    line-height: 30px;
-    font-weight: 400;
-}
-.card1 > .card-container:after {
-    background-image: linear-gradient(135deg, #0100ec, #fb36f4);
-} */
 
 /* --------------------------------------------------------Social Styles */
 
 #social {
-   /*  display: flex;
-    justify-content: center;
-    align-items: center; */
     position: relative;
     text-align: center;
     width: 100vw;
@@ -458,7 +357,6 @@ video[poster]{
 
 .social-link:hover {
     transform: scale(1.02);
-    /* box-shadow: 0 0 10px rgb(231 22 105); */
     box-shadow: 0 0 20px 3px rgb(231 22 105), 0 0 2px 1px #2196f3;
 }
 
@@ -469,13 +367,6 @@ video[poster]{
 /* --------------------------------------------------------News Styles */
 
 #news {
-   /*  display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw; */
-    /* margin: 0;
-    padding: 0; */
     width: 100vw;
     height: 80vh;
     position: relative;
@@ -488,8 +379,7 @@ video[poster]{
 }
 
 .news-container {
-    transform: skew(0deg, 4deg) translateY(260px);
-    
+    transform: skew(0deg, 4deg) translateY(260px);  
 }
 
 .form-content {
@@ -499,8 +389,6 @@ video[poster]{
 
 .input-container {
     width: 50%;
-    
-    /* transform: skewY(-4deg); */
 }
 
 .my-email,
@@ -519,40 +407,18 @@ video[poster]{
 }
 
 .my-submit {
-    /* position: relative;
-    bottom: 10px;
-    left: 20px; */
     font-size: 3rem;
     border: none;
     background: none;
     color: #d3d3d3;
     transition: all .2s ease-in-out;
-    /* border: 2px solid blue;
-    border-left: 0;
-    float: right; */
 }
 
 .my-submit:hover {
     transform: scale(1.02);
-    /* box-shadow: 0 0 10px rgb(231 22 105); */
     filter: brightness(120%);
     text-shadow: 0 0 10px rgb(231 22 105), 0 0 4px #2196f3;
 }
-/* .my-modal {
-    z-index: 100;
-    transform: skew(0deg, -4deg);
-}
- .my-modal-bg {
-     z-index: 200;
- }
- 
- .modal-backdrop {
-    display: none;
- }
- 
-.modal.show .modal-dialog {
-    transform: skew(0deg, -4deg);
-} */
 
 /* ------------------------------------------------------Menu Styles */
 
@@ -574,6 +440,7 @@ video[poster]{
 .menu-container {
     transform: skew(0deg, 4deg);
 }
+
 .menu-link {
     color: #d3d3d3;
     font-size: .85rem;
@@ -586,7 +453,6 @@ video[poster]{
 .menu-link:hover {
     color: #d3d3d3;
     transform: scale(1.02);
-    /* box-shadow: 0 0 10px rgb(231 22 105); */
     filter: brightness(120%);
     text-shadow: 0 0 10px rgb(231 22 105), 0 0 4px #2196f3;
 }
@@ -603,16 +469,12 @@ video[poster]{
     transform: scaleY(20);
     overflow: hidden;
 }
+
 /* ------------------------------------------------Footer Styles */
 
 #footer {
-   /*  display: flex;
-    justify-content: center;
-    align-items: center; */
-  /*   height: 100vh; */
     position: relative;
     width: 100vw;
-    /* height: 80vh; */
     margin: 0;
     padding: 0;
     background: black;
@@ -653,8 +515,6 @@ video[poster]{
     .intro > p {
         font-size: 1.5rem;
     }
-    
-    
 }
 
 @media (min-width: 992px) {
@@ -672,6 +532,7 @@ video[poster]{
         display: none;
     }
 }
+
 @media (max-width: 992px) {
     .welcome > h1 {
         font-size: 3.6rem;
@@ -718,7 +579,6 @@ video[poster]{
     .my-col {
         padding-left: 3rem;
     }
-
     .input-container {
         width: 100%;
     }
@@ -743,9 +603,7 @@ video[poster]{
     .events-card {
         width: 131px;
     }
-    /* .event-text > p {
-        font-size: 1.3rem;
-    } */
+
     .event-header {
         font-size: .8rem;
     }
@@ -760,6 +618,7 @@ video[poster]{
     font-size: 2rem;
     }
 }
+
 @media (max-width: 385px) {
     .my-col {
         padding-left: 1rem;
@@ -771,6 +630,7 @@ video[poster]{
         padding-left: .4rem;
     }
 }
+
 @media (max-width: 360px) {
     .welcome > h1 {
         font-size: 2rem;
@@ -806,42 +666,25 @@ video[poster]{
     }
 }
 
-/* @media (min-width: 360px) {
-    .events-card img {
-        height: 100px;
-    }
-} */
-/* 
-@media (max-width: 360px) {
-   .events-card img {
-        height: 100px;
-    }
-    
-} */
 @media (max-width: 320px) {
     .my-col {
         min-width: 100%;
         max-height: 100%;
         padding: 0;
     }
-
     .events-card img {
         height: auto;
     }
-
-     .events-card {
+    .events-card {
         width: auto;
         height: auto;
     }
-
     .events-heading h3 {
     font-size: 2rem;
     }
-
     .social-heading h2 {
     font-size: 2rem;
     }
-
     .social-text p {
         font-size: 1rem;
     }
@@ -849,5 +692,4 @@ video[poster]{
     margin: 0 1rem 0 1rem;
     font-size: 2rem;
     }
-
 }
