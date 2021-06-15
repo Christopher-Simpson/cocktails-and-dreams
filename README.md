@@ -144,3 +144,35 @@ takeaway.pdf sourced from [Rollin Bistros](https://www.rollinbistros.se/)
 Project deployed on Github Pages [here](https://christopher-simpson.github.io/cocktails-and-dreams/)
 
 # Testing
+HTML Validation through 
+[W3C Markup Validation Service](https://validator.w3.org/)
+No Errors Found
+
+CSS Validation through
+[W3C CSS Validation Service](http://www.css-validator.org/)
+No Errors Found
+
+Chrome Lighthouse [Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fchristopher-simpson.github.io%2Fcocktails-and-dreams%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+
+## Debugging
+### Images and Video causing slow loading times and porr rendering
+My image files and video files were much to large in a previous version causing slow downs.
+
+Fixed by compressing and reuploading images
+
+### Left over space at bottom of screen due to divs being repositioned
+#### Expected
+Content divs overlapping without leaving a space
+#### Result
+Space of excatly the amount of pixels the divs were translated allowing the background splash to show through the bottom of the page
+
+#### Testing
+Tested resizing the divs to fill gap - No Result
+
+Tested adding in a filler div to fill the gap - No Result
+
+#### Fix
+Tested adding in a filler div and then recaling its size to fill the gap
+
+##### Debug Result
+Gap filled however Footer section now expanded bigger than it should be. If I had not mismanaged my time I would have found a more elegant solution.
