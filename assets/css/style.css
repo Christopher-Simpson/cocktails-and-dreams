@@ -24,7 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
+
+a:hover {
+    color: inherit;
+}
+
 /* ---------------------------------------------------------grid view */
 /* .container {
     border: 2px solid blue;
@@ -519,11 +525,19 @@ video[poster]{
     font-size: 3rem;
     border: none;
     background: none;
+    color: #d3d3d3;
+    transition: all .2s ease-in-out;
     /* border: 2px solid blue;
     border-left: 0;
     float: right; */
 }
 
+.my-submit:hover {
+    transform: scale(1.02);
+    /* box-shadow: 0 0 10px rgb(231 22 105); */
+    filter: brightness(120%);
+    text-shadow: 0 0 10px rgb(231 22 105), 0 0 4px #2196f3;
+}
 /* .my-modal {
     z-index: 100;
     transform: skew(0deg, -4deg);

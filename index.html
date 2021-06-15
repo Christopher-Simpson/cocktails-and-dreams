@@ -13,29 +13,26 @@
         <!-- Copied from getbootstrap.com -->
         <nav class="navbar navbar-expand-lg navbar-dark my-nav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./assets/images/cdlogo.gif" class="my-brand" alt="home button"></a>
+                <a class="navbar-brand" href="#home"><img src="./assets/images/cdlogo.gif" class="my-brand" alt="home button"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"  aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon my-toggle"></span>
                 </button>
                 <div class="collapse navbar-collapse my-links" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="bootstrap.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
+                            <a class="nav-link" href="#events">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Social</a>
+                            <a class="nav-link" href="#social">Social</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link" href="#news">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="#menu">Menu</a>
                         </li>
                     </ul>
                 </div>
@@ -94,7 +91,7 @@
                 <div class="row justify-content-around">
                     <div class="col-sm-4 align-self-center button-wrap">
                         <!-- Button mark up and css from https://codepen.io/robson_muniz/pen/BaygbQY Original Author Robson Muniz-->
-                        <a class="my-button" href="#">
+                        <a class="my-button" href="assets/downloadable/takeaway.pdf" target="_blank">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -105,7 +102,122 @@
                 </div>
             </div>
         </section>
-
+        <!-- Modal -->
+        <div class="modal" tabindex="-1" id="taco">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Tacos and Tequila</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Every Tuesday we turn into a taqueria! Enjoy a range of tacos with a selection of Tequilas and Mezcals.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="wine">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Wine and Cheese</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Come in for an afterwork with our Sommelier as we guide you through a different wine region with tastings and cheese pairings. Get in touch if you would like a private tasting and education!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="flair">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Flair Throwdown</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thursday nights the best bartenders from across the country gather together to compete on who is the best of the best. Come and watch their amazing skills while having one of thier awesome drinks</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="mouse">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Guest DJ Deadmau5</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>World renowned Producer and DJ Deadmau5 owed us a favour for hooking im up with his first gig way back in the day. Come and see why he is the biggest name in the industry bringing the worlds biggest parties right here to Cocktails and Dreams</p>
+                        <br>
+                        <a href="http://www.deadmau5.com/" target="_blank">Check him out here</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="idris">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Guest DJ Idris Elba</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>From blowing up the London dance scene to blowing up the Hollywood silver screens Idris Elba knows his business Come and enjoy a night with us and Idris. Bookings essential VIP passes for members only
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="thirsty">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Thirsty Bartenders</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Join us for this cities most craziest industry party every Sunday. We appreciate that the hardworking servers and bartenders deserve their time too so the first fernet is on us!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="vip">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Thank you for signing Up</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>We will get back to you shortly with your new membership. We will mail you all the details and all the benefits when they come up. See you soon!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
      <!-- Events -->
         <section id="events" class="events-wrapper">
             <div class="container my-container">
@@ -118,30 +230,19 @@
                 </div>
                 <div class="row">
                     <div class="col my-col col-sm-4">
-                        <div class="events-card">
+                        <div class="events-card" data-bs-toggle="modal" data-bs-target="#taco">
                             <div class="event-image">
                                 <img src="assets/images/cards/tequila.jpg" alt="lego man and woman standing next to a glass of tequila, a lemon edge and a line of salt">
-                            </div>
+                                </div>
                             <div class="event-text">
                                 <p class="event-header">Tacos & Tequila</p>
                                 <div class="horizontalbar"></div>
                                 <p class="event-date">Tuesdays</p>
                             </div>
                         </div>
-                        <!-- <div class="cards">
-                            <div class="card card1">
-                                <div class="card-container">
-                                    <img src="./assets/images/cards/bluescene.jpg" alt="nightclub interior">
-                                </div>
-                                <div class="details">
-                                    <h3>Las Vegas</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deserunt!</p>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                     <div class="col my-col col-sm-4">
-                        <div class="events-card">
+                        <div class="events-card" data-bs-toggle="modal" data-bs-target="#wine">
                             <div class="event-image">
                                 <img src="assets/images/cards/wine.jpg" alt="2 glasses of wine being clinked together">
                             </div>
@@ -153,7 +254,7 @@
                         </div>
                     </div>
                     <div class="col my-col col-sm-4">
-                        <div class="events-card">
+                        <div class="events-card" data-bs-toggle="modal" data-bs-target="#flair">
                             <div class="event-image">
                                 <img src="assets/images/cards/flair.jpg" alt="bartender performing tricks">
                             </div>
@@ -165,7 +266,7 @@
                         </div>
                     </div>
                     <div class="col my-col col-sm-4">
-                        <div class="events-card">
+                        <div class="events-card" data-bs-toggle="modal" data-bs-target="#idris">
                             <div class="event-image">
                                 <img src="assets/images/cards/idris.jpg" alt="Idris Elba Djing">
                             </div>
@@ -177,7 +278,7 @@
                         </div>
                     </div>
                     <div class="col my-col col-sm-4">
-                        <div class="events-card">
+                        <div class="events-card" data-bs-toggle="modal" data-bs-target="#mouse">
                             <div class="event-image">
                                 <img src="assets/images/cards/deadmau5.jpg" alt="Deadmau5 posing with lasers">
                             </div>
@@ -189,7 +290,7 @@
                         </div>
                     </div>
                     <div class="col my-col col-sm-4">
-                        <div class="events-card">
+                        <div class="events-card" data-bs-toggle="modal" data-bs-target="#thirsty">
                             <div class="event-image">
                                 <img src="assets/images/cards/weird.jpg"  alt="nightclub interior">
                             </div>
@@ -218,30 +319,21 @@
                     </div>
                 </div>
                 <div class="row">
-                    <!-- <div class="col col-sm-4 flex-nowrap">
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                        </div>
-                    </div>
-                    <div class="col col-sm-4 flex-nowrap">
-                        <div class="social-link">
-                            <i class="fab fa-twitter"></i>
-                        </div>
-                    </div>
-                    <div class="col col-sm-4 flex-nowrap">
-                        <div class="social-link">
-                            <i class="fab fa-instagram"></i>
-                        </div>
-                    </div> -->
                     <div class="col col-sm-12">
                         <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
+                            <a href="http://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
                         </div>
                         <div class="social-link">
-                            <i class="fab fa-twitter"></i>
+                            <a href="http://www.twitter.com/" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
                         </div>
                         <div class="social-link">
-                            <i class="fab fa-instagram"></i>
+                            <a href="http://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -271,7 +363,7 @@
                                     <input type="email" class="my-email" placeholder="enter your email">
                                 </div>
                                 <div class="button-container">
-                                    <button type="submit" class="my-submit">
+                                    <button type="submit" class="my-submit" data-bs-toggle="modal" data-bs-target="#vip">
                                         <i class="far fa-paper-plane"></i>
                                     </button>
                                 </div> 
