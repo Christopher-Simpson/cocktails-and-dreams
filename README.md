@@ -88,3 +88,59 @@ The slanted divs on the page tell the user that there is more information to be 
 # Wireframes
 
 [View wireframe here](assets/mockups/wireframes.pdf)
+
+Due to poor time management I ran out of time to implement to gallery section of the plans and they had to be scrapped for now.
+
+# Attribution
+
+## Code
+
+### Modal
+[Bootstrap 5 Documentation](https://getbootstrap.com/docs/5.0/components/modal/)
+
+### NavBar
+[Bootstrap 5 Documentation](https://getbootstrap.com/docs/5.0/components/navbar/)
+
+### Carousel 
+[Bootstrap 5 Documentation](https://getbootstrap.com/docs/5.0/components/carousel/)
+
+### Animated Button
+Original HTML Mark up and CSS from [Code Pen](https://codepen.io/robson_muniz/pen/BaygbQY)
+Original Author: Robson Muniz
+
+## images
+
+### Unsplash images
+[Visit Unsplash here](http://unsplash.com/)
+bar.jpg by [Q.U.I](https://unsplash.com/@quinguyen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+neon.jpg by [Nick Fewings](https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+julep.jpg by [Adam Jamie](https://unsplash.com/@arobj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+lowball.jpg by [Ash Edmunds](https://unsplash.com/@badashproducts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+sour.jpg by [Jakob Dzuibak](https://unsplash.com/@jckbck?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+crew.jpg by [Crew](https://unsplash.com/@crew?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+magig.jpg by [Ash Edmunds](https://unsplash.com/@badashproducts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+mixing.jpg by [Alex Voulgaris](https://unsplash.com/@alexvgr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+jigger.jpg by [Michael Odelberth](https://unsplash.com/@odelberth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+weird.jpg by [Dan Parlante](https://unsplash.com/@danparlante?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+tequila.jpg by [Artur Tumasjan](https://unsplash.com/@arturtumasjan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+wine.jpg by [Zan](https://unsplash.com/@zanilic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+flair.jpg by [Andriyko Podilnyk](https://unsplash.com/@yirage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+### Google Search Images
+deadmau5.jpg by [Unknown](https://www.insomniac.com/music/artists/deadmau5/)
+idris.jpg by [Unknown](https://pagesix.com/2019/01/03/idris-elba-aka-dj-big-driis-is-playing-coachella/)
+
+## Video 
+cdbgvidcomp.mp4
+cdbgvidcomp.webm clipped from the Long Island Ice Tea scene from the 1988 movie Cocktail starring Tom Cruise. From Touchstone Pictures
+
+I own a dvd copy which I store on my hardrive. I used iMovie to clip the part I wanted
+
+## Downloadable Menus
+food.pdf cocktails.pdf were sourced from [Barabicu Pan Amaerican Grill](https://barabicu.se/)
+takeaway.pdf sourced from [Rollin Bistros](https://www.rollinbistros.se/)
+
+# Deployment
+Project deployed on Github Pages [here](https://christopher-simpson.github.io/cocktails-and-dreams/)
+
+# Testing
